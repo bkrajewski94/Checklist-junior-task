@@ -16,7 +16,7 @@ Run the development server
 npm start
 ```
 
-Local development server will be running at http://localhost:1234 . 
+Local development server will be running at http://localhost:1234. 
 In order to connect with server you need to turn off cors in your browser. 
 
 ## Files
