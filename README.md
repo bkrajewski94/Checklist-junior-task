@@ -17,7 +17,7 @@ npm start
 ```
 
 Local development server will be running at http://localhost:1234. 
-In order to connect with server you need to turn off cors in your browser. 
+Because of incorrectly configured API in order to connect with server you need to turn of cors in your browser. 
 
 ## Files
 Script.js is main Javascript file, folder Scripts contains the rest of js files with are necessary for the program to work. Folder dist(created automatically by parcel-bundler) contains files: index.html, script.75da7f30.js and script.75da7f30.css. They contain all necessary files bundled into single .html, .css and .js files by parcel-bundler. Folder assets contains icons (png files) used in the project.
