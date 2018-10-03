@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #e9f0f4; }
+
+.container {
+  width: 320px;
+  margin-left: 50px;
+  margin-top: 50px; }
+
+.header {
+  padding: 11px 20px 11px 50px;
+  background-color: #2e3641;
+  position: relative; }
+  .header:before, .header:after {
+    width: 1px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #79818b;
+    content: ''; }
+  .header:before {
+    left: 29px; }
+  .header:after {
+    left: 33px; }
+  .header h1 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold; }
+
+.fancy-checkbox,
+footer {
+  height: 29px;
+  background-color: #fff;
+  -moz-box-shadow: 0px 0px 1px #dbdbdb -0px 0px 1px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 1px #dbdbdb, -0px 0px 1px #dbdbdb;
+  box-shadow: inset 0px 0px 1px #dbdbdb, inset -0px 0px 1px #dbdbdb;
+  position: relative; }
+  .fancy-checkbox:before, .fancy-checkbox:after,
+  footer:before,
+  footer:after {
+    width: 1px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #f2e3df;
+    content: ''; }
+  .fancy-checkbox:before,
+  footer:before {
+    left: 29px; }
+  .fancy-checkbox:after,
+  footer:after {
+    left: 33px; }
+
+.fancy-checkbox .checkMe {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 9px;
+  height: 9px;
+  background: url(checkbox_empty.879a13f3.png); }
+  .fancy-checkbox .checkMe:hover {
+    cursor: pointer; }
+
+.fancy-checkbox .checked {
+  background: url(checkbox_checked.a4226df0.png); }
+
+.fancy-checkbox .undone,
+.fancy-checkbox .done {
+  font-size: 12px;
+  position: absolute;
+  left: 44px;
+  top: 8px; }
+
+.fancy-checkbox .undone {
+  color: #2e3641; }
+
+.fancy-checkbox .done {
+  color: #9eb2c0;
+  text-decoration: line-through; }
+
+.fancy-checkbox .trashbin {
+  margin: 0;
+  border: none;
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  width: 11px;
+  height: 12px;
+  background: url(trashbin_unchecked.49983eee.png); }
+  .fancy-checkbox .trashbin:hover {
+    cursor: pointer; }
+
+.fancy-checkbox .trashbinChecked {
+  background: url(trashbin_checked.9b653d9e.png); }
+
+footer #add {
+  padding-left: 0;
+  padding-right: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  z-index: 2;
+  background: url(add.86b35522.png);
+  border: 0px;
+  box-shadow: none;
+  outline: none; }
+  footer #add:hover {
+    cursor: pointer; }
+
+footer #input {
+  position: absolute;
+  left: 44px;
+  top: 8px;
+  border: none;
+  height: 12px;
+  width: 75%;
+  font-size: 12px; }
+
+li {
+  cursor: move; }
+
+#saveButton {
+  margin-left: 50px;
+  margin-top: 20px;
+  cursor: pointer; }
