@@ -17,7 +17,7 @@ npm start
 ```
 
 Local development server will be running at http://localhost:1234. 
-Because of incorrectly configured API in order to connect with server you need to turn of cors in your browser. 
+** Because of incorrectly configured API in order to connect with server you need to turn of cors in your browser.**
 
 ## ScreenShots (Layout based on PSD file provided by company) 
 ![](to-do-list/frontend/assets/ToDoList.PNG)
